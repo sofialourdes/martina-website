@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+
+  /* dunkle Überlagerung + Bild, damit Text lesbar bleibt */
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/background.jpg") center / cover no-repeat fixed;
+}
+
+header, main, footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
